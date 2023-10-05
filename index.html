@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>SHFE-68 project 2</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SHFE-68 project 2</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
       <div class="popup_wrapper _hidden">
       <form class="form_popup">
-        <div class="container_popup">
         <h2 class="title_popup">Ваш фидбек</h2>
           <label class="select_group">
             <span class="select">Как часто вы заходите на сайт?</span>
@@ -30,7 +29,6 @@
 </textarea></label>
        <button type="submit" class="key_submit">Отправить
        </button> 
-     </div>
      <button class="popup__close" type="button"></button>
 </form>
 </div>
@@ -44,11 +42,11 @@
         </button>
     <ul class="menu"> 
       <li class="menu_list"><a href="#0" class="menu_link">Главная</a></li>
-      <li class="menu_list"><a href="#0" class="menu_link">Посты</a></li>
-      <li class="menu_list"><a href="#0" class="menu_link">Статьи</a></li>
-      <li class="menu_list"><a href="#0" class="menu_link">Теги</a></li>
-      <li class="menu_list"><a href="#0" class="menu_link">Темы</a></li>
-      <li class="menu_list"><a href="#0" class="menu_link">Контакты</a></li>
+      <li class="menu_list menu_list_post"><a href="#0" class="menu_link">Посты</a></li>
+      <li class="menu_list menu_list_post"><a href="#0" class="menu_link">Статьи</a></li>
+      <li class="menu_list menu_list_post"><a href="#0" class="menu_link">Теги</a></li>
+      <li class="menu_list menu_list_post"><a href="#0" class="menu_link">Темы</a></li>
+      <li class="menu_list menu_list_post"><a href="#0" class="menu_link">Контакты</a></li>
     </ul>
   </nav>
   </div>
@@ -63,7 +61,7 @@
             <div class="container_trend">
           <ul class="category_basic_post">
             <li class="category_list_basic"><a href="#0" class="category_link_basic">Lifestyle</a></li>
-            <li class="category_list_basic"><a href="#0" class="category_link_basic">Interior</a></li>
+            <li class="category_list_basic category_list_basic_post"><a href="#0" class="category_link_basic">Interior</a></li>
 </ul>
 <h3 class="subtitle_basic_post"><a href="#0" class="subtitle_link">Сейчас в тренде: сад на подоконнике</a></h3></div>
 </article>
@@ -80,7 +78,7 @@
    <div class="container_trend">
           <ul class="category_basic_post">
             <li class="category_list_basic"><a href="#0" class="category_link_basic">Lifestyle</a></li>
-            <li class="category_list_basic"><a href="#0" class="category_link_basic">Travel</a></li>
+            <li class="category_list_basic category_list_basic_post"><a href="#0" class="category_link_basic">Travel</a></li>
 </ul>
 <h3 class="subtitle_basic_post"><a href="#0" class="subtitle_link">Собираемся в первый поход в горы</a></h3></div>
 </article>
@@ -89,7 +87,7 @@
    <div class="container_trend">
           <ul class="category_basic_post">
             <li class="category_list_basic"><a href="#0" class="category_link_basic">Food</a></li>
-            <li class="category_list_basic"><a href="#0" class="category_link_basic">Health</a></li>
+            <li class="category_list_basic category_list_basic_post"><a href="#0" class="category_link_basic">Health</a></li>
 </ul>
 <h3 class="subtitle_basic_post"><a href="#0" class="subtitle_link">Сейчас в тренде: сколько витамина в лимонах?</a></h3></div>
 </article>
@@ -102,7 +100,7 @@
         <div class="holder">
         <ul class="category">
       <li class="category_list"><a href="#0" class="category_link">Travel</a></li>
-      <li class="category_list"><a href="#0" class="category_link">Health</a></li>
+      <li class="category_list category_list_post"><a href="#0" class="category_link">Health</a></li>
     </ul>
           <h2 class="title_category"><a href="0" class="title_category_link">10 мест, ради которых стоит проснуться на рассвете</a></h2>
           <time datetime="2019-06-10" class="date">10 июня 2019</time>
@@ -116,7 +114,7 @@
         <div class="holder">
         <ul class="category">
           <li class="category_list"><a href="#0" class="category_link">Health</a></li>
-          <li class="category_list"><a href="#0" class="category_link">Lifestyle</a></li>
+          <li class="category_list category_list_post"><a href="#0" class="category_link">Lifestyle</a></li>
     </ul>
           <h2 class="title_category"><a href="0" class="title_category_link">Йога для начинающих в домашних условиях</a></h2>
           <time datetime="2019-06-10" class="date">10 июня 2019</time>
@@ -144,7 +142,7 @@
         <div class="holder">
         <ul class="category">
           <li class="category_list"><a href="#0" class="category_link">Lifestyle</a></li>
-          <li class="category_list"><a href="#0" class="category_link">Food</a></li>
+          <li class="category_list category_list_post"><a href="#0" class="category_link">Food</a></li>
     </ul>
           <h2 class="title_category"><a href="0" class="title_category_link">Наукоемкий подход к кулинарии</a></h2>
           <time datetime="2019-06-10" class="date">10 июня 2019</time>
@@ -158,8 +156,8 @@
         <div class="holder">
         <ul class="category">
           <li class="category_list"><a href="#0" class="category_link">Lifestyle</a></li>
-          <li class="category_list"><a href="#0" class="category_link">Interior</a></li>
-          <li class="category_list"><a href="#0" class="category_link">Art</a></li>
+          <li class="category_list category_list_post"><a href="#0" class="category_link">Interior</a></li>
+          <li class="category_list category_list_post"><a href="#0" class="category_link">Art</a></li>
     </ul>
           <h2 class="title_category"><a href="0" class="title_category_link">Делаем модные принты на подушках для интерьера</a></h2>
           <time datetime="2019-06-10" class="date">10 июня 2019</time>
@@ -173,7 +171,7 @@
      <section class="subtitle">
        <h2 class="chapter">Новые посты</h2>
        
-       <article class="subtopic">
+       <article class="subtopic subtopic_basic">
      <img class="image" src="images/2.jpg" alt="sea">
          <div class="folder">
        <time datetime="2019-06-14" class="date">14 июня 2019</time>
@@ -226,7 +224,7 @@
          </form>
        </section>
      
-      <section class="subtitle">
+      <section class="subtitle subtitle_post">
        <h2 class="chapter">Рассылка</h2>
         <form>
          <div class="form">
@@ -241,7 +239,7 @@
           </form>
      </section>
 
-     <section class="subtitle">
+     <section class="subtitle subtitle_post">
        <h2 class="chapter">Теги</h2>
        <ul class="tags">
          <li class="tags_list"><a href="#0" class="tags_link">Fashion</a></li>
@@ -255,7 +253,7 @@
        </ul>
      </section>
 
-      <section class="subtitle">
+      <section class="subtitle subtitle_post">
        <h2 class="chapter">Teмы</h2>
        <ul class="topic">
          <li class="topic_list"><a href="#0" class="topic_link">Красота</a>
@@ -357,8 +355,8 @@
       <div class="container">
       <ul class="footer_title">
         <li class="footer_list"><a href="#0" class="social_icon social_icondribbble"><span class="visually-hidden">Профиль в компании Dribbble</span></a></li>
-        <li class="footer_list"><a href="#0" class="social_icon social_iconpinterest"><span class="visually-hidden">Профиль в компании Pinterest</span></a></li>
-        <li class="footer_list"><a href="#0" class="social_icon social_icontumblr"><span class="visually-hidden">Профиль в компании Tumblr</span></a></li>   
+        <li class="footer_list footer_list_post"><a href="#0" class="social_icon social_iconpinterest"><span class="visually-hidden">Профиль в компании Pinterest</span></a></li>
+        <li class="footer_list footer_list_post"><a href="#0" class="social_icon social_icontumblr"><span class="visually-hidden">Профиль в компании Tumblr</span></a></li>   
       </ul>
         </div>
       <div class="container">
